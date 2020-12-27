@@ -49,6 +49,16 @@
     </dependencies>
 
     <profiles>
+        <profile>
+            <id>windows-local</id>
+            <!-- 激活当前设置 -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <log-file-path>H:\log\brilliant</log-file-path>
+            </properties>
+        </profile>
 
     </profiles>
 
